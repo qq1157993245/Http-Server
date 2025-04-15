@@ -31,11 +31,11 @@
 
    GET:
    
-            printf "GET /foo.txt HTTP/1.1\r\nRequestID: 1\r\n\r\n" | ./cse130_nc localhost 3000
+            printf "GET /foo.txt HTTP/1.1\r\nRequestID: 1\r\n\r\n" | ./test_nc localhost 3000
    
    PUT:
    
-            printf "PUT /foo.txt HTTP/1.1\r\nContent-Length: 12\r\n\r\nHello World!" | ./cse130_nc localhost 3000
+            printf "PUT /foo.txt HTTP/1.1\r\nContent-Length: 12\r\n\r\nHello World!" | ./test_nc localhost 3000
 
 4. Every request is logged to stderr in the format:
    
