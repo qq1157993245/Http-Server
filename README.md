@@ -27,7 +27,7 @@
    
             ./httpserver -t 8 3000
 
-3. You can test the server:
+3. You can test the server in another terminal:
 
    GET:
    
